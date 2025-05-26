@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_settings",
+  "info": {
+    "singularName": "website-setting",
+    "pluralName": "website-settings",
+    "displayName": "Website Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "pink",
+        "summer"
+      ],
+      "default": "light"
+    }
+  }
+}
