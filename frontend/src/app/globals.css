@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+@custom-variant pink (&:where(.pink, .pink *));
+@custom-variant summer (&:where(.summer, .summer *));
